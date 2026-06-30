@@ -60,12 +60,4 @@ Data was sourced via the `yfinance` API. Both simple and log returns were comput
 
 ```
 
-## Limitations
-
-- Brent Crude was used as a proxy for oil prices rather than Dubai Crude, which is more representative of India's import mix, though the two are highly correlated
-- Small sample size (April 2026 only) — results are directionally reliable but would benefit from validation over a longer time series
-- The regression model captures only two factors (crude, USD/INR); a fuller model would incorporate FII flows, domestic bond yields, and sector-specific earnings data
-- FII flow data ($12.7B outflow in March, $5B+ in April 2026) was researched qualitatively but not incorporated quantitatively due to data alignment constraints
-
-See the full report (`report.pdf`) for a complete discussion of limitations and methodology.
 
