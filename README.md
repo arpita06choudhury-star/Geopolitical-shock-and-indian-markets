@@ -57,15 +57,7 @@ Data was sourced via the `yfinance` API. Both simple and log returns were comput
 | `matplotlib` | Visualizations |
 | `seaborn` | Correlation heatmap |
 
-## Repository structure
 
-```
-geopolitical-shock-project/
-├── README.md
-├── requirements.txt
-├── analysis.py              # Main analysis script
-├── report.pdf               # Full written report with charts and commentary
-└── figures/                 # Exported chart images
 ```
 
 ## Limitations
